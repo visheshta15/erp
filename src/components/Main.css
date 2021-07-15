@@ -1,0 +1,136 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 0.85;
+    height: 100vh;
+    background-color: #f5f7f9;
+
+}
+/* ------------ */
+.main__header{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgrey;
+    padding: 15px;
+    color: #747d8c;
+    background-color: white;
+}
+
+.main__header .MuiSvgIcon-root{
+    font-size: small;
+}
+
+.main__header h6 {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+/* ---------------- */
+.main__body{
+    /* background-color: #f5f7f9; */
+    margin: 30px;
+}
+
+
+.main__body .main__input{
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.main__inputHeader{
+    width: 90%;
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+
+.main__inputHeader h5{
+    font-weight: 400;
+    color: #747d8c;
+}
+
+.main__inputForm{
+    width: 90%;
+}
+
+.main__inputForm form {
+    display: flex;
+    flex: 1;
+
+}
+
+.main__FormInput1, .main__FormInput2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.main__inputForm form label {
+    padding: 8px 0px;
+    color: #747d8c;
+
+}
+
+.main__inputForm form input{
+    border: none;
+    outline: none;
+    background-color: #f5f7f9 ;
+    border: 1px solid rgb(189, 187, 187);
+}
+
+
+.main__FormButton button{
+    flex: 0.2;
+    width: 100px !important;
+    border-radius: none !important;
+    color: white;
+    background-color:     #0d6efd;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-top: 37px;
+}
+
+
+/* ---------------- */
+
+.main__body .main__output{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+.main__outputTable{
+    width: 90%;
+    margin-top: 20px;
+    min-height: 300px;
+}
+
+.main__outputTableHeader , .main__outputTableContent{
+    display: grid;
+    grid-template-rows: 35px ;
+    grid-template-columns: 80px 1fr 1fr 120px;
+}
+
+.main__outputTableHeader div {
+    text-align: center;
+    background-color: #f5f7f9 ;
+    border-right: 1px solid rgb(189, 187, 187);
+    color: #747d8c;
+}
+
+.main__outputTableHeader .div4 {
+    border-right: none;
+}
+
+
+.main__outputTableContent div{
+    text-align: center;
+    border-right: 1px solid rgb(189, 187, 187);
+    color: #747d8c;
+}
+
+.main__outputTableContent .div4 {
+    border-right: none;
+}
